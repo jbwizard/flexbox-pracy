@@ -69,19 +69,22 @@ body{
 
 .rectangle-five{
     justify-content: space-evenly;
-    align-items: center;
-
+    align-content: center;
 }
 
 .five__box-one, .five__box-three{
     height: 100%;
-    align-items: center;
-    justify-content: center;
 }
 
 .five__box-two{
+    height: 50%;
+    align-self: center;
+}
+
+.five__box-one, .five__box-two, .five__box-three{
+    box-sizing: border-box;
+    padding: 10px;
     align-items: center;
-    justify-content: center;
 }
 
 .txt{
