@@ -20,8 +20,6 @@ body{
 .rectangle{
     width: 468px;
     height: 160px;
-    left: 98px;
-    top: 90px;
     box-sizing: border-box;
     padding: 20px;
     background: #F48C06;
@@ -33,9 +31,7 @@ body{
 
 .box{
     width: 78px;
-    height: 78px;
-    left: 117px;
-    top: 153px;
+    min-height: 78px;
     background: #9D0208;
     border-radius: 4px;
     display: flex;
@@ -46,13 +42,10 @@ body{
 }
 
 .rectangle-two{
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
 }
 
-.two__box-one, .two__box-two, .two__box-three{
-    height: 100%;
-}
 
 .rectangle-three{
     align-items: center;
@@ -72,20 +65,17 @@ body{
     align-content: center;
 }
 
-.five__box-one, .five__box-three{
-    height: 100%;
-}
-
 .five__box-two{
-    height: 50%;
     align-self: center;
 }
+
 
 .five__box-one, .five__box-two, .five__box-three{
     box-sizing: border-box;
     padding: 10px;
-    align-items: center;
+    align-items: baseline;
 }
+
 
 .txt{
     font-family: 'Roboto';
